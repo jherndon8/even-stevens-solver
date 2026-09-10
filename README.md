@@ -57,7 +57,7 @@ Find a second deck that has a distinguishable front from the original deck (I fi
 For the truly insane willing to kill a few hours, find a third and fourth deck, each deck with distinguishable card faces. Assign a "Deck suit" of heart, club, spade, and diamond, one to each deck. Now your Even Stevens set need an even number of cards from Red Decks, Black Decks, Major Decks, and Minor Decks, while satisfying all other normal Even Stevens rules. Draw up to 9 cards instead of 7 for this mode. The same setup for the ending in challenge mode applies.
 
 ## Challenge / Insanity mode with 1 deck
-To preview these modes without getting another deck, use the multiplayer setup of laying the cards on the table. Then, lay each card either vertically, horizontally for challenge mode, alternating between what card gets drawn, or vertically, horizontally, or diagonally, cycling through the 4 options for insanity mode. The different orientations represent coming from different decks.
+To preview these modes without getting another deck, use the multiplayer setup of laying the cards on the table. Then, lay each card either vertically or horizontally for challenge mode, alternating between what card gets drawn, or vertically, horizontally, or diagonally, cycling through the 4 options for insanity mode. The different orientations represent coming from different decks.
 
 In-hand setups are possible, see images below
 
