@@ -13,14 +13,11 @@ Take 7 cards and put them face-up on the table so they’re all clearly visible 
 
 
 ## Object
-Collect groups of four that satisfy the Even Stevens property.
+Collect groups of cards that satisfy the Even Stevens property. Predict the last card before it's drawn.
 ## Gameplay
 This game has no turns. As soon as you see a group of four or six (or eight in challenge mode) that make a valid set among the face-up cards in the middle, discard them. Draw new cards to get the total back up to 7.
 #### Multiplayer modes
 If you want a friendly cooperative match, you can work together to find sets and discard them as if you were playing a solitaire game. If you want to play competitively, each player collects the cards when they spot an Even Stevens set, and whoever has the most cards at the end wins the game!
-
-## Game end
-When there is only one card left in the deck, do not draw it. Look at all of the cards and try to deduce what card it should be. If you've collected all valid sets, then the final card when added to the remaining uncollected cards should all form a final set. If your prediction is right, you win! If not, trace back through the sets you collected and try to see where you went wrong. For multiplayer, you can cooperatively find sets together, or competitively try to be the first to 
 
 ## Even Stevens properties
 Each number has three properties: it is either even (2,4,6,8) or odd (1,3,5,7), it is either high (5,6,7,8) or low (1,2,3,4), and it is either a middle card (1,2,7,8) or an outside card (3,4,5,6). Suits also have two properties: they can be red or black, and they can be “major suits” (hearts/spades) or “minor suits” (diamonds/clubs).
@@ -41,8 +38,11 @@ If you collect a set of four, for each property, the four cards either all match
 ### Stuck?
 Try [this solver](https://jherndon8.github.io/even-stevens-solver/)
 
+## Game end
+When there is only one card left in the deck, do not draw it. Look at all of the cards and try to deduce what card it should be. If you've collected all valid sets, then the final card when added to the remaining uncollected cards should all form a final set. If your prediction is right, you win! If not, trace back through the sets you collected and try to see where you went wrong. For competitive multiplayer, count who has collected the most cards. That player wins!
+
 ## Tips
-Instead of 1,2,7,8 as outside and 3,4,5,6 as inside cards, it might be easier to split them by high and low and think of 1,4/5,8 as "outside" and 2,3/6,7 as "inside." Any valid Even Stevens set should satisfy both.
+Instead of 1,2,7,8 as outside and 3,4,5,6 as inside cards, it might be easier to split them by high and low and think of 1,4/5,8 as "outside" and 2,3/6,7 as "inside." Any valid Even Stevens set will satisfy both ways of thinking about it.
 
 ## Variant
 For a slightly longer game, choose one card from your hand to be the permanent card. Whenever you find an Even Stevens set which includes the permanent card, discard all cards EXCEPT the permanent card. About half your sets will include the permanent card by chance so you should need a few more sets than a normal game to get through the whole deck.
