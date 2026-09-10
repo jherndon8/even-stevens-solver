@@ -1,5 +1,7 @@
 div {
-	margin-left: auto;
-	margin-right: auto;
-	width:340px;
+	display: inline-block;
+}
+
+body {
+	text-align: center;
 }

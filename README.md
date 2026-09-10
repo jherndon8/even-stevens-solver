@@ -2,7 +2,7 @@
 
 ## Overview
 Even Stevens is a puzzle game designed for passing the time with some heavy thinking. It's like a sudoku puzzle in a deck of cards!
-Your main goal will be collecting perfectly even sets out of a pile of 7 cards. You win when you collect almost the whole deck and can predict what the last card is out of what's left.
+Your main goal will be collecting perfectly even sets out of a hand of 7 cards. You win when you collect almost the whole deck and can predict what the last card is out of what's left.
 
 ## Setup
 Take a standard 52 deck of cards. Remove the 9s through Kings and return them to the box. Aces have a value of 1. Form a draw pile with the remaining 32 cards.
@@ -12,16 +12,15 @@ Draw 7 cards to form a hand.
 Take 7 cards and put them face-up on the table so they’re all clearly visible if playing with multiple people.
 
 
-Object
-Collect groups of four that satisfy the “Four Set” property.
-Gameplay
-This game has no turns. As soon as you see a group of four that make a valid set among the face-up cards in the middle, say “Set!” then touch them. Once everyone has confirmed it’s a set, the player that found them gathers the cards in the set they found and keeps them face down in front of them. Draw new cards to get the total back up to 7.
+## Object
+Collect groups of four that satisfy the Even Stevens property.
+## Gameplay
+This game has no turns. As soon as you see a group of four or six (or eight in challenge mode) that make a valid set among the face-up cards in the middle, discard them. Draw new cards to get the total back up to 7.
+#### Multiplayer modes
+If you want a friendly cooperative match, you can work together to find sets and discard them as if you were playing a solitaire game. If you want to play competitively, each player collects the cards when they spot an Even Stevens set, and whoever has the most cards at the end wins the game!
 
 ## Game end
-When there is only one card left in the deck, do not draw it. Look at all of the cards and try to deduce what card it should be. If you've collected all valid sets, then the final card when added to the remaining uncollected cards should all form a final set. If your prediction is right, you win! If not, trace back through the sets you collected and try to see where you went wrong.
-
-Small footprint solitaire play
-To play solitaire, draw four cards in your hand. Draw one card at a time, only when you’re certain a set does not exist out of the cards in your hand. Feel free to rearrange and sort your hand as much as it helps you. Once you find a set, discard them from your hand, and draw your hand back up to four cards. Repeat and see how fast you can go through the whole deck, or go leisurely to pass the time.
+When there is only one card left in the deck, do not draw it. Look at all of the cards and try to deduce what card it should be. If you've collected all valid sets, then the final card when added to the remaining uncollected cards should all form a final set. If your prediction is right, you win! If not, trace back through the sets you collected and try to see where you went wrong. For multiplayer, you can cooperatively find sets together, or competitively try to be the first to 
 
 ## Even Stevens properties
 Each number has three properties: it is either even (2,4,6,8) or odd (1,3,5,7), it is either high (5,6,7,8) or low (1,2,3,4), and it is either a middle card (1,2,7,8) or an outside card (3,4,5,6). Suits also have two properties: they can be red or black, and they can be “major suits” (hearts/spades) or “minor suits” (diamonds/clubs).
@@ -42,5 +41,14 @@ If you collect a set of four, for each property, the four cards either all match
 ### Stuck?
 Try [this solver](https://jherndon8.github.io/even-stevens-solver/)
 
+## Tips
+Instead of 1,2,7,8 as outside and 3,4,5,6 as inside cards, it might be easier to split them by high and low and think of 1,4/5,8 as "outside" and 2,3/6,7 as "inside." Any valid Even Stevens set should satisfy both.
+
+## Variant
+For a slightly longer game, choose one card from your hand to be the permanent card. Whenever you find an Even Stevens set which includes the permanent card, discard all cards EXCEPT the permanent card. About half your sets will include the permanent card by chance so you should need a few more sets than a normal game to get through the whole deck.
+
 ## Challenge mode
 Find a second deck that has a distinguishable front from the original deck (I find gift shop cards work better than standard cards for this). Now being in one deck vs. the other becomes another property to keep track of, and you have twice as many cards to get through. For this challenge mode, you will need to draw 8 cards instead of 7.
+
+## Insanity mode
+For the truly insane willing to kill a few hours, find a third and fourth deck, each deck with distinguishable card faces. Assign a "Deck suit" of heart, club, spade, and diamond, one to each deck. Now your Even Stevens set need an even number of cards from Red Decks, Black Decks, Major Decks, and Minor Decks, while satisfying all other normal Even Stevens rules. Draw up to 9 cards instead of 7 for this mode.
