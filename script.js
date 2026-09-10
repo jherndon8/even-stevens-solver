@@ -19,7 +19,6 @@ function main() {
 		}
 		if (doNotCheck || num) {continue;}
 		solution.push(included.map(x=> values[x]))
-		//solution.push(i, included, num);
 	}
 	
 	if (solution.length == 0) {
