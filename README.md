@@ -47,8 +47,17 @@ Instead of 1,2,7,8 as outside and 3,4,5,6 as inside cards, it might be easier to
 ## Variant
 For a slightly longer game, choose one card from your hand to be the permanent card. Whenever you find an Even Stevens set which includes the permanent card, discard all cards EXCEPT the permanent card. About half your sets will include the permanent card by chance so you should need a few more sets than a normal game to get through the whole deck.
 
+## Easy/Tutorial mode
+If you find yourself struggling on your first run, try starting with only 16 cards, drawing 6 instead of 7. You can either use ace through four of all suits, or you can use ace through 8 but only the red cards. Try each and see which one you struggle with more, and do a couple play-throughs of that one to make the normal game easier.
+
 ## Challenge mode
-Find a second deck that has a distinguishable front from the original deck (I find gift shop cards work better than standard cards for this). Now being in one deck vs. the other becomes another property to keep track of, and you have twice as many cards to get through. For this challenge mode, you will need to draw 8 cards instead of 7.
+Find a second deck that has a distinguishable front from the original deck (I find gift shop cards work better than standard cards for this). Now being in one deck vs. the other becomes another property to keep track of, and you have twice as many cards to get through. For this challenge mode, you will need to draw 8 cards instead of 7. Even Stevens sets of size 8 are allowed. For added fun, put one card in a card box without looking at it. When you get to the end, you have to predict which card AND which deck it came from.
 
 ## Insanity mode
-For the truly insane willing to kill a few hours, find a third and fourth deck, each deck with distinguishable card faces. Assign a "Deck suit" of heart, club, spade, and diamond, one to each deck. Now your Even Stevens set need an even number of cards from Red Decks, Black Decks, Major Decks, and Minor Decks, while satisfying all other normal Even Stevens rules. Draw up to 9 cards instead of 7 for this mode.
+For the truly insane willing to kill a few hours, find a third and fourth deck, each deck with distinguishable card faces. Assign a "Deck suit" of heart, club, spade, and diamond, one to each deck. Now your Even Stevens set need an even number of cards from Red Decks, Black Decks, Major Decks, and Minor Decks, while satisfying all other normal Even Stevens rules. Draw up to 9 cards instead of 7 for this mode. The same setup for the ending in challenge mode applies.
+
+## Challenge / Insanity mode with 1 deck
+To preview these modes without getting another deck, use the multiplayer setup of laying the cards on the table. Then, lay each card either vertically, horizontally for challenge mode, alternating between what card gets drawn, or vertically, horizontally, or diagonally, cycling through the 4 options for insanity mode. The different orientations represent coming from different decks.
+
+In-hand setups are possible, see images below
+![challenge in-hand setup](images/challenge.jpg) ![insanity in-hand setup](images/insanity.jpg)
