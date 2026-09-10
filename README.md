@@ -60,4 +60,7 @@ For the truly insane willing to kill a few hours, find a third and fourth deck, 
 To preview these modes without getting another deck, use the multiplayer setup of laying the cards on the table. Then, lay each card either vertically, horizontally for challenge mode, alternating between what card gets drawn, or vertically, horizontally, or diagonally, cycling through the 4 options for insanity mode. The different orientations represent coming from different decks.
 
 In-hand setups are possible, see images below
-![challenge in-hand setup](images/challenge.jpg) ![insanity in-hand setup](images/insanity.jpg)
+
+![challenge in-hand setup](images/challenge.jpg)
+
+![insanity in-hand setup](images/insanity.jpg)
