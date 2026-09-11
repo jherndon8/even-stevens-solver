@@ -26,6 +26,8 @@ An Even Stevens set means that for all these number and suit properties, there a
 
 If you collect a set of four, for each property, the four cards either all match, or are split two-and-two.
 
+If you collect a set of six, each property must either all match, or be split two-and-four.
+
 ### Examples
 `1h, 2h, 3h, 4h` makes a set because 4 are low, 4 are red, 4 are major suits, and it’s a 2-2 split between odd and even, and a 2-2 split between middle and outside cards
 
@@ -33,10 +35,10 @@ If you collect a set of four, for each property, the four cards either all match
 
 `1h, 4c, 6d, 7s` makes a set because every single subproperty has 2 that are one way and 2 that are the opposite
 
-`3d, 1s, 7h, 2s, 8d, 3h` makes a set because 2 are high, 4 are low, 
+`3d, 1s, 7h, 2c, 8h, 3h` makes a set because there's 2/4 for high/low, 2/4 for even/odd, 2/4 for outside/inside, 2/4 for black/red, and 2/4 for minor/major,
 
 ### Stuck?
-Try [this solver](https://jherndon8.github.io/even-stevens-solver/)
+Try [this solver](https://jherndon8.github.io/even-stevens-solver/) or try a play through of Easy/Tutorial mode below.
 
 ## Game end
 When there is only one card left in the deck, do not draw it. Look at all of the cards and try to deduce what card it should be. If you've collected all valid sets, then the final card when added to the remaining uncollected cards should all form a final set. If your prediction is right, you win! If not, trace back through the sets you collected and try to see where you went wrong. For competitive multiplayer, count who has collected the most cards. That player wins!
@@ -46,8 +48,12 @@ Instead of 1,2,7,8 as outside and 3,4,5,6 as inside cards, it might be easier to
 
 An easier way to think about suits is that one of each forms a set, and a pair of the same suit "cancels out". So for a four-card set you'll either have one of each, all the same, or two pairs of suits. Some valid suit-only examples: dddd, hhcc, sscc, ddss, hcsd, hcsdss, ddsscc, hhhcsd
 
+For finding a set of size 6 or greater, there must be one pair among the numbers. These numbers "cancel out" and the remaining four should form a set among the number properties. Same goes for the suits. In the final example above, the 3s pair up while a 1,2,7,8 makes a set numberwise, and the hearts pair up while the others form a set suit-wise.
+
 ## Variant
 For a slightly longer game, choose one card from your hand to be the permanent card. Whenever you find an Even Stevens set which includes the permanent card, discard all cards EXCEPT the permanent card. About half your sets will include the permanent card by chance so you should need a few more sets than a normal game to get through the whole deck.
+
+For the game end of this variant, if there's an even number of uncollected cards (including the last in the deck) then the permanent card should be used in the final set. If there's an odd number, then ignore the permanent card for deducing the final card.
 
 ## Easy/Tutorial mode
 If you find yourself struggling on your first run, try starting with only 16 cards, drawing 6 instead of 7. You can either use ace through four of all suits, or you can use ace through 8 but only the red cards. Try each and see which one you struggle with more, and do a couple play-throughs of that one to make the normal game easier.
@@ -58,11 +64,20 @@ Find a second deck that has a distinguishable front from the original deck (I fi
 ## Insanity mode
 For the truly insane willing to kill a few hours, find a third and fourth deck, each deck with distinguishable card faces. Assign a "Deck suit" of heart, club, spade, and diamond, one to each deck. Now your Even Stevens set need an even number of cards from Red Decks, Black Decks, Major Decks, and Minor Decks, while satisfying all other normal Even Stevens rules. Draw up to 9 cards instead of 7 for this mode. The same setup for the ending in challenge mode applies.
 
+## Impossible mode
+If you have all the time in the world to kill, get 8 decks, forming a 256-card gauntlet. Assign each deck a number 1-8. Draw 10 cards instead of 7. The card values as well as their deck numbers need to form a set.
+
+NOTE: for the previous three modes it didn't matter if the assignment was changed mid-game since swapping suits around wouldn't change the validity between different sets in different hand. For impossible mode, the mapping of deck to number MUST stay consistent. I recommend grabbing a 9 from each deck and putting them somewhere else on the table in a row just as a reference for the order.
+
 ## Challenge / Insanity mode with 1 deck
 To preview these modes without getting another deck, use the multiplayer setup of laying the cards on the table. Then, lay each card either vertically or horizontally for challenge mode, alternating between what card gets drawn, or vertically, horizontally, or diagonally, cycling through the 4 options for insanity mode. The different orientations represent coming from different decks.
 
-In-hand setups are possible, see images below
+For impossible mode, form 8 piles on the table and cycle through which pile gets added. Each pile is from a different "deck"
+
+In-hand setups are possible, see images below.
 
 ![challenge in-hand setup](images/challenge.jpg)
 
 ![insanity in-hand setup](images/insanity.jpg)
+
+![impossible in-hand setup](images/impossible.jpg)
