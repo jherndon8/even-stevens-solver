@@ -44,6 +44,8 @@ When there is only one card left in the deck, do not draw it. Look at all of the
 ## Tips
 Instead of 1,2,7,8 as outside and 3,4,5,6 as inside cards, it might be easier to split them by high and low and think of 1,4/5,8 as "outside" and 2,3/6,7 as "inside." Any valid Even Stevens set will satisfy both ways of thinking about it.
 
+An easier way to think about suits is that one of each forms a set, and a pair of the same suit "cancels out". So for a four-card set you'll either have one of each, all the same, or two pairs of suits. Some valid suit-only examples: dddd, hhcc, sscc, ddss, hcsd, hcsdss, ddsscc, hhhcsd
+
 ## Variant
 For a slightly longer game, choose one card from your hand to be the permanent card. Whenever you find an Even Stevens set which includes the permanent card, discard all cards EXCEPT the permanent card. About half your sets will include the permanent card by chance so you should need a few more sets than a normal game to get through the whole deck.
 
