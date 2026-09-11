@@ -1,5 +1,5 @@
 # Even Stevens
-
+A puzzle card game by JT Herndon
 ## Overview
 Even Stevens is a puzzle game designed for passing the time with some heavy thinking. It's like a sudoku puzzle in a deck of cards!
 Your main goal will be collecting perfectly even sets out of a hand of 7 cards. You win when you collect almost the whole deck and can predict what the last card is out of what's left.
