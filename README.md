@@ -88,8 +88,8 @@ For impossible mode, form 8 piles on the table and cycle through which pile gets
 
 In-hand setups are possible, see images below.
 
-<img src="images/challenge.jpg" width="25%">
+<img src="images/challenge.jpg" width="30%">
 
-<img src="images/insanity.jpg" width="25%">
+<img src="images/insanity.jpg" width="30%">
 
 ![impossible in-hand setup](images/impossible.jpg)
