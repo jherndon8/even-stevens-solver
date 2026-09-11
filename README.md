@@ -20,7 +20,7 @@ This game has no turns. As soon as you see a group of four or six (or eight in c
 If you want a friendly cooperative match, you can work together to find sets and discard them as if you were playing a solitaire game. If you want to play competitively, each player collects the cards when they spot an Even Stevens set, and whoever has the most cards at the end wins the game!
 
 ## Even Stevens properties
-Each number has three properties: it is either even (2,4,6,8) or odd (1,3,5,7), it is either high (5,6,7,8) or low (1,2,3,4), and it is either a middle card (1,2,7,8) or an outside card (3,4,5,6). Suits also have two properties: they can be red or black, and they can be “major suits” (hearts/spades) or “minor suits” (diamonds/clubs).
+Each number has three properties: it is either even (2,4,6,8) or odd (1,3,5,7), it is either high (5,6,7,8) or low (1,2,3,4), and it is either an outside card (1,2,7,8) or an inside card (3,4,5,6). Suits also have two properties: they can be red or black, and they can be “major suits” (hearts/spades) or “minor suits” (diamonds/clubs).
 
 An Even Stevens set means that for all these number and suit properties, there are an even number of cards for all these properties.
 
