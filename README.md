@@ -24,7 +24,7 @@ This game has no turns. As soon as you see a group of four or six (or eight in c
 #### Multiplayer modes
 If you want a friendly cooperative match, you can work together to find sets and discard them as if you were playing a solitaire game. If you want to play competitively, each player collects the cards when they spot an Even Stevens set, and whoever has the most cards at the end wins the game!
 
-Another multiplayer variant (credit to J Simmons): Each player gets a deck. Whoever can play through their deck and correctly identify the last card in their deck without looking at it wins. If an experienced player is playing against a new player or players, the experienced player must use one of the challenge, insanity, or impossible with one deck variants.
+Another multiplayer variant (credit to J Simmons): Each player gets a deck. Whoever can play through their deck and correctly identify the last card in their deck without looking at it wins. If an experienced player is playing against a new player or players, the experienced player must use one of the challenge, insanity, or impossible with one deck variants, combined with the "constant card" variant.
 
 ## Even Stevens properties
 Each number has three properties: it is either even (2,4,6,8) or odd (1,3,5,7), it is either high (5,6,7,8) or low (1,2,3,4), and it is either an outside card (1,2,7,8) or an inside card (3,4,5,6). Suits also have two properties: they can be red or black, and they can be “major suits” (hearts/spades) or “minor suits” (diamonds/clubs).
@@ -45,7 +45,7 @@ If you collect a set of six, each property must either all match, or be split tw
 `3d, 1s, 7h, 2c, 8h, 3h` makes a set because there's 2/4 for high/low, 2/4 for even/odd, 2/4 for outside/inside, 2/4 for black/red, and 2/4 for minor/major,
 
 ### Stuck?
-Try [this solver](https://jherndon8.github.io/even-stevens-solver/) or try a play through of Easy/Tutorial mode below.
+Try the solver at [jherndon8.github.io/even-stevens-solver/]((https://jherndon8.github.io/even-stevens-solver/)) or try a play through of Easy/Tutorial mode below.
 
 ## Game end
 When there is only one card left in the deck, do not draw it. Look at all of the cards and try to deduce what card it should be. If you've collected all valid sets, then the final card when added to the remaining uncollected cards should all form a final set. If your prediction is right, you win! If not, trace back through the sets you collected and try to see where you went wrong. For competitive multiplayer, count who has collected the most cards. That player wins!
@@ -57,8 +57,8 @@ An easier way to think about suits is that one of each forms a set, and a pair o
 
 For finding a set of size 6 or greater, there must be one pair among the numbers. These numbers "cancel out" and the remaining four should form a set among the number properties. Same goes for the suits. In the final example above, the 3s pair up while a 1,2,7,8 makes a set numberwise, and the hearts pair up while the others form a set suit-wise.
 
-## Variant
-For a slightly longer game, choose one card from your hand to be the permanent card. Whenever you find an Even Stevens set which includes the permanent card, discard all cards EXCEPT the permanent card. About half your sets will include the permanent card by chance so you should need a few more sets than a normal game to get through the whole deck.
+## "Constant Card" Variant
+For a slightly longer game, choose one card from your initial hand to be the permanent card. Whenever you find an Even Stevens set which includes the permanent card, discard all cards EXCEPT the permanent card. About half your sets will include the permanent card by chance so you should need a few more sets than a normal game to get through the whole deck.
 
 For the game end of this variant, if there's an even number of uncollected cards (including the last in the deck) then the permanent card should be used in the final set. If there's an odd number, then ignore the permanent card for deducing the final card.
 
