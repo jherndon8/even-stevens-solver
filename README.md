@@ -1,4 +1,4 @@
-# even-stevens-solver
+# Even Stevens
 
 ## Overview
 Even Stevens is a puzzle game designed for passing the time with some heavy thinking. It's like a sudoku puzzle in a deck of cards!
