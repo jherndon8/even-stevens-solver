@@ -37,7 +37,7 @@ There is a clever acronym to help remember the 5 properties: CHILE (Credit to @C
 
 *For major/minor suits, a spade kind of looks like an upside down heart.
 
-An Even Stevens set means that *for all ten of these possible properties, there are an _even number_ of cards with that property in your set.*
+An Even Stevens set means that **for all ten of these possible properties, there are an _even number_ of cards with that property in your set.**
 
 Another way to look at it:
 
