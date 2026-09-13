@@ -5,9 +5,7 @@ Even Stevens is a puzzle game designed for passing the time with some heavy thin
 Your main goal will be collecting perfectly even sets out of a hand of 7 cards. You win when you collect almost the whole deck and can predict what the last card is out of what's left.
 
 ## Play time
-20-40 minutes your first time, play time goes down as you get more experience. Can be kept to 15 minutes if using the solver when stuck after a minute or two
-
-Play time estimates for variants are highly dependent on skill level.
+30-120 minutes your first time, play time goes down as you get more experience. Can be kept to 15 minutes if using the solver when stuck after a minute or two
 
 ## Setup
 Take a standard 52 deck of cards. Remove the 9s through Kings and return them to the box. Aces have a value of 1. Form a draw pile with the remaining 32 cards.
@@ -24,7 +22,7 @@ This game has no turns. As soon as you see a group of four or six (or eight in c
 #### Multiplayer modes
 If you want a friendly cooperative match, you can work together to find sets and discard them as if you were playing a solitaire game. If you want to play competitively, each player collects the cards when they spot an Even Stevens set, and whoever has the most cards at the end wins the game!
 
-Another multiplayer variant (credit to J Simmons): Each player gets a deck. Whoever can play through their deck and correctly identify the last card in their deck without looking at it wins. If an experienced player is playing against a new player or players, the experienced player must use one of the challenge, insanity, or impossible with one deck variants, combined with the "constant card" variant.
+Another multiplayer variant (credit to J Simmons): Each player gets a deck. Whoever can play through their deck and correctly identify the last card in their deck without looking at it wins. If an experienced player is playing against a new player or players, the experienced player must use one of the challenge, insanity, or impossible with one deck variants, combined with the "constant card" variant. I also recommend allowing new players to draw 8 cards instead of 7.
 
 ## Even Stevens properties
 Each number has three properties: it is either even (2,4,6,8) or odd (1,3,5,7), it is either high (5,6,7,8) or low (1,2,3,4), and it is either an outside card (1,2,7,8) or an inside card (3,4,5,6). Suits also have two properties: they can be red or black, and they can be “major suits” (hearts/spades) or “minor suits” (diamonds/clubs).
@@ -32,14 +30,14 @@ Each number has three properties: it is either even (2,4,6,8) or odd (1,3,5,7), 
 There is a clever acronym to help remember the 5 properties: CHILE (Credit to @CantWakeJake for coming up with this one)
 
 ##### C - Color (♥️♦️/♣️♠️)
-##### H - Heart* (♥️♠️/♦♣️)
+##### H - Heart* (♥️♠️/♦️♣️)
 ##### I - Inside/Outside (3456/1278)
 ##### L - Low/High (1234/5678)
-##### E - Even/Odd (1357,2468)
+##### E - Even/Odd (1357/2468)
 
 *For major/minor suits, a spade kind of looks like an upside down heart.
 
-An Even Stevens set means that ** for all ten of these possible properties, there are an _even number_ of cards with that property in your set.**
+An Even Stevens set means that *for all ten of these possible properties, there are an _even number_ of cards with that property in your set.*
 
 Another way to look at it:
 
@@ -81,23 +79,21 @@ For a slightly longer game, choose one card from your initial hand to be the per
 For the game end of this variant, if there's an even number of uncollected cards (including the last in the deck) then the permanent card should be used in the final set. If there's an odd number, then ignore the permanent card for deducing the final card.
 
 ## Easy/Tutorial mode
-#### Est. play time: 10-15 minutes
-For a slightly easier game, draw up to 8 cards instead of 7. There will be more possibilities to go through, but there will be more sets to find. Additionally, you can guarantee a set of size four when 8 cards are available.
+#### Est. play time: 0.8x length of a standard game
+For a slightly easier game, draw up to 8 cards instead of 7. There will be more possibilities to go through, but there will be more sets to find. Additionally, you can guarantee a set of size four when 8 cards are available so you're not stuck looking for size 6 sets.
 
-If you still find yourself struggling, try starting with only 16 cards, drawing 6 instead of 7. You can either use ace through four of all suits, or you can use ace through 8 but only the red cards. Try each and see which one you struggle with more, and do a couple play-throughs of that one to make the normal game easier.
-
-
+If you still find yourself struggling, try starting with only 16 cards, drawing 6 instead of 7. You can either use ace through four of all suits, or you can use ace through 8 but only the red cards. Try each and see which one you struggle with more, and do a couple play-throughs of that one to make the normal game easier. This should take about a third of the time as a standard game.
 
 ## Challenge mode
-#### Est. play time: 20-40 minutes, 10-20 minutes with one deck
+#### Est. play time: 6x the length of a standard game - 3x if playing this mode with one deck
 Find a second deck that has a distinguishable front from the original deck (I find gift shop cards work better than standard cards for this). Now being in one deck vs. the other becomes another property to keep track of, and you have twice as many cards to get through. For this challenge mode, you will need to draw 8 cards instead of 7. Even Stevens sets of size 8 are allowed. For added fun, put one card in a card box without looking at it. When you get to the end, you have to predict which card AND which deck it came from.
 
 ## Insanity mode
-#### Est. play time: A few hours, 30-60 minutes with one deck
+#### Est. play time: 24x the length of a standard game - 10x if playing this mode with one deck
 For the truly insane willing to kill a few hours, find a third and fourth deck, each deck with distinguishable card faces. Assign a "Deck suit" of heart, club, spade, and diamond, one to each deck. Now your Even Stevens set need an even number of cards from Red Decks, Black Decks, Major Decks, and Minor Decks, while satisfying all other normal Even Stevens rules. Draw up to 9 cards instead of 7 for this mode. The same setup for the ending in challenge mode applies.
 
 ## Impossible mode
-#### Est. play time: Hours or days - 45-90 minutes with one deck.
+#### Est. play time: 160x the length of a standard game - 30x if playing this mode with one deck
 
 If you have all the time in the world to kill, get 8 decks, forming a 256-card gauntlet. Assign each deck a number 1-8. Draw 10 cards instead of 7. The card values as well as their deck numbers need to form a set.
 
