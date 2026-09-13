@@ -73,6 +73,12 @@ An easier way to think about suits is that one of each forms a set, and a pair o
 
 For finding a set of size 6 or greater, there must be one pair among the numbers. These numbers "cancel out" and the remaining four should form a set among the number properties. Same goes for the suits. In the final example above, the 3s pair up while a 1,2,7,8 makes a set numberwise, and the hearts pair up while the others form a set suit-wise.
 
+
+### Walkthrough example
+I recommend after reading these rules and playing a game while trying to come up with your own strategies. If you have played and are still completely lost on how to deduce a set any better than just picking 4 or 6 random cards and brute force checking them, I'd recommend checking out CantWakeJake's awesome (walkthrough)[https://boardgamegeek.com/thread/3766267/article/48170183#48170183] of finding a set from a sample hand.
+
+# Variants
+
 ## "Constant Card" Variant
 For a slightly longer game, choose one card from your initial hand to be the permanent card. Whenever you find an Even Stevens set which includes the permanent card, discard all cards EXCEPT the permanent card. About half your sets will include the permanent card by chance so you should need a few more sets than a normal game to get through the whole deck.
 
@@ -111,3 +117,7 @@ In-hand setups are possible, see images below.
 <img src="images/insanity.jpg" width="30%">
 
 ![impossible in-hand setup](images/impossible.jpg)
+
+## Reference card for Properties (Credit: UberDante)
+
+![evens stevens reference card](images/reference_card.webp)
