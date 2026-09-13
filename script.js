@@ -3,7 +3,6 @@ function main() {
 	if (values.length > 7) {alert("Only input 7 numbers"); return;}
 	const wrongVal = values.filter(x => x[0] < 1 || x[0]>8 || 'hdcs'.indexOf(x[1]) < 0)
 	if (wrongVal.length) {alert("invalid value(s): " + wrongVal); return;}
-	console.log(values)
 	const encodedVals = values.map(x=>(Number(x[0]-1)<<2)+'hdcs'.indexOf(x[1]))
 	const solution = []
 	for (let i = 1; i < 1<<values.length; i++) {
@@ -27,4 +26,25 @@ function main() {
 	}
 	
 	alert(solution.join('\n'));
+}
+
+function isSet() {
+	const values = document.getElementById('input').value.split(/[\s,]+/)
+	if (values.length % 2) {alert("Enter an even number of cards");return;}
+	let check = 0;
+	for (let val of values) {
+		check = check ^ ((val[0]-1) | (('hdsc'.indexOf(val[1]) << 3)))
+	}
+	if (check == 0) {
+		alert("Valid Even Stevens set!");
+		return;
+	}
+	properties = ['even/odd','inside/outside','high/low','red/black','major(hs)/minor(dc)']
+	let message = 'The following properties have an odd number of cards represented:\n'
+	for (let i = 0; i <5; i++ ) {
+		if ((1<<i) & check) {
+			message = message + properties[i] + "\n"
+		}
+	}
+	alert (message)
 }
