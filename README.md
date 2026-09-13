@@ -5,7 +5,7 @@ Even Stevens is a puzzle game designed for passing the time with some heavy thin
 Your main goal will be collecting perfectly even sets out of a hand of 7 cards. You win when you collect almost the whole deck and can predict what the last card is out of what's left.
 
 ## Play time
-Roughly 5-10 minutes - first couple of learning attempts might be longer, can be kept to 10 minutes if using the solver when stuck after a minute or two
+20-40 minutes your first time, play time goes down as you get more experience. Can be kept to 15 minutes if using the solver when stuck after a minute or two
 
 Play time estimates for variants are highly dependent on skill level.
 
@@ -29,11 +29,29 @@ Another multiplayer variant (credit to J Simmons): Each player gets a deck. Whoe
 ## Even Stevens properties
 Each number has three properties: it is either even (2,4,6,8) or odd (1,3,5,7), it is either high (5,6,7,8) or low (1,2,3,4), and it is either an outside card (1,2,7,8) or an inside card (3,4,5,6). Suits also have two properties: they can be red or black, and they can be “major suits” (hearts/spades) or “minor suits” (diamonds/clubs).
 
-An Even Stevens set means that for all these number and suit properties, there are an even number of cards for all these properties.
+There is a clever acronym to help remember the 5 properties: CHILE (Credit to @CantWakeJake for coming up with this one)
 
-If you collect a set of four, for each property, the four cards either all match, or are split two-and-two.
+##### C - Color (♥️♦️/♣️♠️)
+##### H - Heart* (♥️♠️/♦♣️)
+##### I - Inside/Outside (3456/1278)
+##### L - Low/High (1234/5678)
+##### E - Even/Odd (1357,2468)
 
-If you collect a set of six, each property must either all match, or be split two-and-four.
+*For major/minor suits, a spade kind of looks like an upside down heart.
+
+An Even Stevens set means that ** for all ten of these possible properties, there are an _even number_ of cards with that property in your set.**
+
+Another way to look at it:
+
+If you collect a set of four, for all 5 property categories, the four cards either all match, or are split two-and-two.
+
+If you collect a set of six, for all 5 property categories, the six must either all match, or be split two-and-four.
+
+Before you collect your set, walk through **all five of these property categories** and ensure that splitting your set by the category into 2 groups (or 1 group if they're all the same for that category) does not result in a group with an odd number.
+
+If any property category splits the group into a 1-3, 3-3, or 1-5 split, it is not a valid set. As an example, `4s,5d,6h,7c` kind of looks like a set, but it has 1 low (4) and 3 high (5,6,7), and also has 3 inside(4,5,6) and 1 outside(7), so this does not make a valid set, even though the other three properties (Color, HeartSpade, and Even) are properly met.
+
+You can also use the solver at [jherndon8.github.io/even-stevens-solver/](https://jherndon8.github.io/even-stevens-solver/) to see if your set is valid
 
 ### Examples
 `1h, 2h, 3h, 4h` makes a set because 4 are low, 4 are red, 4 are major suits, and it’s a 2-2 split between odd and even, and a 2-2 split between middle and outside cards
@@ -45,7 +63,7 @@ If you collect a set of six, each property must either all match, or be split tw
 `3d, 1s, 7h, 2c, 8h, 3h` makes a set because there's 2/4 for high/low, 2/4 for even/odd, 2/4 for outside/inside, 2/4 for black/red, and 2/4 for minor/major,
 
 ### Stuck?
-Try the solver at [jherndon8.github.io/even-stevens-solver/]((https://jherndon8.github.io/even-stevens-solver/)) or try a play through of Easy/Tutorial mode below.
+Try the solver at [jherndon8.github.io/even-stevens-solver/](https://jherndon8.github.io/even-stevens-solver/) or try a play through of Easy/Tutorial mode below.
 
 ## Game end
 When there is only one card left in the deck, do not draw it. Look at all of the cards and try to deduce what card it should be. If you've collected all valid sets, then the final card when added to the remaining uncollected cards should all form a final set. If your prediction is right, you win! If not, trace back through the sets you collected and try to see where you went wrong. For competitive multiplayer, count who has collected the most cards. That player wins!
@@ -63,8 +81,12 @@ For a slightly longer game, choose one card from your initial hand to be the per
 For the game end of this variant, if there's an even number of uncollected cards (including the last in the deck) then the permanent card should be used in the final set. If there's an odd number, then ignore the permanent card for deducing the final card.
 
 ## Easy/Tutorial mode
-#### Est. play time: 3-5 minutes
-If you find yourself struggling on your first run, try starting with only 16 cards, drawing 6 instead of 7. You can either use ace through four of all suits, or you can use ace through 8 but only the red cards. Try each and see which one you struggle with more, and do a couple play-throughs of that one to make the normal game easier.
+#### Est. play time: 10-15 minutes
+For a slightly easier game, draw up to 8 cards instead of 7. There will be more possibilities to go through, but there will be more sets to find. Additionally, you can guarantee a set of size four when 8 cards are available.
+
+If you still find yourself struggling, try starting with only 16 cards, drawing 6 instead of 7. You can either use ace through four of all suits, or you can use ace through 8 but only the red cards. Try each and see which one you struggle with more, and do a couple play-throughs of that one to make the normal game easier.
+
+
 
 ## Challenge mode
 #### Est. play time: 20-40 minutes, 10-20 minutes with one deck
